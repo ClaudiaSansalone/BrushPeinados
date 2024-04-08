@@ -1,0 +1,500 @@
+body {
+    background: #000000;
+}
+
+header {
+    background-color: white;
+
+}
+
+.cajalogo {
+    align-items: center;
+    display: contents;
+}
+
+
+.logoCabecera {
+    margin-left: 10%;
+    margin-top: 10px;
+    width: 180px;
+}
+
+.nombre {
+    align-items: center;
+    font-family: cinzel decorative;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-left: 10%;
+    margin-top: 1px;
+}
+
+.leyenda {
+    align-items: center;
+    font-family: cinzel decorative;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+    margin-left: 10%;
+    margin-top: 3px;
+}
+
+.caja {
+    background-color: white;
+    border-bottom: 5px solid #7A6730;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+
+
+nav {
+    position: absolute;
+    right: 10%;
+    top: 110px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: #000000;
+    font-family: cinzel decorative;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #7A6730;
+    font-size: xx-large;
+}
+
+
+#carouselExampleInterval {
+    margin-left: 17%;
+    width: 100%;
+}
+
+.nosotros {
+    background: #0f0f0f;
+    border: solid #7A6730;
+    color: #BDB398;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 3%;
+    padding: 2%;
+}
+
+.nosotros img {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 150px;
+}
+
+.diferenciales {
+    background: #0c0c0c;
+    border: solid #7A6730;
+    color: #BDB398;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 3%;
+    padding: 2%;
+}
+
+.diferenciales img {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 150px;
+}
+
+.lista-diferenciales {
+    width: 100%;
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.BP i {
+    color: #e6cd79;
+    font-size: larger;
+}
+
+.titulo {
+    font-size: xx-large;
+
+}
+
+/*aca comienza Historia*/
+.textHisto {
+    border: solid #7A6730;
+    color: #7A6730;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin: 5%;
+    padding: 50px;
+    text-align: center;
+}
+
+#peluHisto {
+    font-family: cinzel decorative;
+    font-size: xxx-large;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.carfotos {
+    border: solid #7A6730;
+    border-image-slice: 60px;
+    border-style: groove;
+    border-width: 15px;
+    margin: auto;
+    /* Centrar el carrusel */
+    margin-bottom: 70px;
+    max-width: 1000px;
+    /* Tamaño máximo del carrusel */
+
+}
+
+#carouselExampleControlsNoTouching {
+    border: solid #7A6730;
+    border-image-slice: 60px;
+    border-style: groove;
+    border-width: 15px;
+    margin: auto;
+    /* Centrar el carrusel */
+    margin-bottom: 70px;
+    max-width: 1000px;
+    /* Tamaño máximo del carrusel */
+}
+
+.mayuscula {
+    font-family: cinzel decorative;
+    font-size: xxx-large;
+    font-weight: 500;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+/*ACA COMIENZA EL FOOTER*/
+.footer {
+    background: white;
+    border-top: 5px solid #7A6730;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer li {
+    padding: 5px;
+}
+
+.datos {
+    display: block;
+    width: 300px;
+}
+
+.datos h3 {
+    margin-bottom: 10px;
+}
+
+
+#tele {
+    display: flex;
+}
+
+#tele img {
+    width: 30px;
+}
+
+#tele p {
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+#mails {
+    display: flex;
+}
+
+#mails img {
+    width: 30px;
+}
+
+#mails p {
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+
+.centro {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    width: 400px;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 180px;
+}
+
+.footer p {
+    color: #000000;
+    font-size: medium;
+    font-weight: 400;
+    margin-left: 60px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 15px;
+
+}
+
+.return {
+
+    display: block;
+    font-size: x-large;
+    width: 300px;
+}
+
+.return a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+/*ACA COMIENZA EL FORMA DE CONTACTOS*/
+.contenedorContacto {
+    display: flex;
+    /* Utilizamos flexbox para manejar el diseño de los elementos */
+    margin: 10px;
+    margin-block: 10px;
+}
+
+.formulario {
+    flex: 1;
+    /* El formulario ocupa el espacio restante */
+    padding: 10PX;
+    /* Ancho máximo del 50% */
+    /*padding: 20px; Añadimos un espacio interior para mayor legibilidad */
+}
+
+
+
+
+
+#mensaje {
+    font-size: large;
+}
+
+form {
+    margin: 20px;
+}
+
+form label,
+form legend {
+    color: #7A6730;
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contact,
+.turnos {
+    border: solid #7A6730;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    background: #7A6730;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+    transition: 1s all;
+    width: 40%;
+}
+
+.enviar:hover {
+    background: #362d13;
+    transform: scale(1.1);
+}
+
+/*TABLA DE HORARIOS*/
+
+aside {
+    align-items: center;
+    flex: 1;
+    margin: 20px;
+
+}
+
+table {
+    border-radius: 5px;
+    margin: 40px 40px;
+
+}
+
+.horarios {
+    margin-left: 90px;
+    padding-top: 20px;
+}
+
+thead {
+    background: #7A6730;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid #7A6730;
+    padding: 8px 15px;
+}
+
+.info {
+    color: #BDB398;
+   
+    flex-direction: column;
+    margin: 80px;
+    padding-left: 50px;
+}
+
+
+.info img {
+    width: 40px;
+}
+.info a{
+    color: #7A6730;
+    display: flex;
+    text-decoration: none;
+
+}
+.info p{
+    font-size: larger;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.colorTexto {
+    color: #BDB398;
+}
+
+
+#mapa {
+    background-color: #7A6730;
+    padding: 2em 0
+}
+
+#mapa h3 {
+    color: white;
+    font-family: cinzel decorative;
+    font-weight: 400;
+    margin: 0 0 2em;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+#mapa p {
+    color: white;
+    font-family: cinzel decorative;
+    font-weight: 400;
+    margin: 0 0 2em;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
+.mapa-contenido {
+
+    margin: 0 auto;
+    width: 940px;
+}
+
+/*Aquí inicia el CSS para nuestra home*/
+.banner {
+    width: 100%;
+}
+
+.principal {
+    background: #FEFEFE;
+    margin: 0 auto;
+    padding: 3em 0;
+    width: 940px;
+}
+
+
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 120px;
+}
+
+.mapa {
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 3em 0
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.mapa-contenido {
+    margin: 0 auto;
+    width: 940px;
+}
+
+
+.imagen-diferenciales {
+    box-shadow: 10px 10px 30px 15px #000000;
+    transition: 400ms;
+    width: 60%;
+}
+
+.imagen-diferenciales:hover {
+    opacity: 0.3;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
